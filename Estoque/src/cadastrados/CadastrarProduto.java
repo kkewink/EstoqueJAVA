@@ -30,7 +30,7 @@ public class CadastrarProduto {
 			try {
 				nome = teclado.nextLine();
 				if (nome.length() == 0) {
-					System.err.println("------NÂO DEIXEI EM BRANCO------");
+					System.err.println("------NÂO DEIXE EM BRANCO------");
 					continue;
 				} if (nome.length() < 3) {
 					System.err.println("------MINIMO DE CARACTERIS 3------");
@@ -52,7 +52,7 @@ public class CadastrarProduto {
 			try {
 				descricao = teclado.nextLine();
 				if (descricao.length() == 0) {
-					System.err.println("------NÂO DEIXEI EM BRANCO------");
+					System.err.println("------NÂO DEIXE EM BRANCO------");
 					continue;
 				} if (descricao.length() < 3) {
 					System.err.println("------MINIMO DE CARACTERIS 3------");
