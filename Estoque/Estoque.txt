@@ -1,0 +1,4 @@
+Produto
+Produto: feijão| Descrição: comida| Codigo de Barra: 423432| Quantidade do Produto: 2| Preço do Produto: 70.0
+Produto: sdasaad | Descrição: sadsada | Codigo de Barra: 14213 | Quantidade do Produto: 2143213 | Preço do Produto: 2.0 | Validade: 2035-12-12
+Produto: asidsaiohdsoa | Descrição: 21321321 | Codigo de Barra: 54545 | Quantidade do Produto: 656 | Preço do Produto: 121312.0
