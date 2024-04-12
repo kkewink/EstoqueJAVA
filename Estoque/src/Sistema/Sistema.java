@@ -44,7 +44,7 @@ public class Sistema {
 
 			case 4: {
 
-				System.out.println(exibirDetalhes("Estoque.txt")); 
+				System.out.println(exibirDetalhes("Estoque.txt"));
 
 				continue;
 
@@ -72,16 +72,17 @@ public class Sistema {
 		System.out.println("-------------------------------------------------");
 		System.out.println(" ");
 	}
-	
+
 	public static String exibirDetalhes(String fileName) {
 		StringBuilder content = new StringBuilder();
 		try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
 			String line;
-			/*Executar o loop de repetição enquanto a variavel lida
-			 * no aruivo for diferente de nulo
+			/*
+			 * Executar o loop de repetição enquanto a variavel lida no aruivo for diferente
+			 * de nulo
 			 */
-			while((line = reader.readLine()) != null) {
-				//escrevendo conteudo na variavel
+			while ((line = reader.readLine()) != null) {
+				// escrevendo conteudo na variavel
 				content.append(line).append("\n");
 			}
 		} catch (Exception e) {
